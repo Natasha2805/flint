@@ -887,7 +887,9 @@ padding: 30px 50px 80px 50px;
   .pack {
     max-width: 33%;
   }
-
+.pack-bruskety {
+  max-width: 50%;
+}
   .pack-img_1 {
     -webkit-transform-origin: left bottom;
     transform-origin: left bottom;

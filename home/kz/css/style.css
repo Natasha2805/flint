@@ -382,8 +382,9 @@ footer {
 .social-flint {
   width: 297px;
   text-align: center;
-  padding: 0 140px 80px 0;
-  border-right: 1px solid #00C9F5;
+  /*padding: 0 140px 80px 0;
+  border-right: 1px solid #00C9F5;*/
+  padding: 0 50px 80px 0;
 }
 
 .social-flint>img {
@@ -396,9 +397,15 @@ footer {
 
 .social-grenki {
   text-align: center;
-  padding: 30px 0 80px 162px;
+  /*padding: 30px 0 80px 162px;*/
+  padding: 30px 50px 80px 50px;
+  border-right: 1px solid #00C9F5;
+  border-left: 1px solid #00C9F5;
 }
-
+.social-bruskety {
+  border-right: none;
+  border-left: none;
+}
 .social-wrapper a {
   margin-left: 25px;
   margin-right: 25px;
@@ -882,7 +889,9 @@ footer {
 .pack {
   max-width: 33%;
 }
-
+.pack-bruskety {
+  max-width: 50%;
+}
 .pack-img_1 {
   -webkit-transform-origin: left bottom;
   transform-origin: left bottom;
@@ -1054,10 +1063,22 @@ footer {
     padding-right: 0;
     border: none;
   }
-
   .social-grenki {
+    padding-left: 20px;
+      padding-right: 20px;
+  }
+  /*.social-grenki {
     width: auto;
     padding-left: 0;
+  }*/
+  .social-grenki {
+    padding-left: 20px;
+      padding-right: 20px;
+  }
+  @media (max-width: 860px) {
+    .social-grenki {
+      border-right: none;
+    }
   }
 }
 
@@ -1087,7 +1108,9 @@ footer {
     height: 240px !important;
     width: 80% !important;
   }
-
+  .social-grenki {
+    margin-bottom: 80px;
+  }
   .imgBG-1,
   .imgBG-2 {
     display: none;
